@@ -13,7 +13,7 @@ module SalesforceBulkApi
   class Api
     attr_reader :connection
 
-    SALESFORCE_API_VERSION = '44.0'
+    SALESFORCE_API_VERSION = '45.0'
 
     def initialize(client)
       @connection = SalesforceBulkApi::Connection.new(SALESFORCE_API_VERSION, client)
